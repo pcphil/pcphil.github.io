@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgood_reads_list=globalThis.webpackChunkgood_reads_list||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
