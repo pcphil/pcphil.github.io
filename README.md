@@ -1,41 +1,37 @@
-# Website
+# pcphil.github.io
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Philip Chung's personal portfolio and blog, built with [Docusaurus 3](https://docusaurus.io/).
 
-## Installation
+Live at **[pcphil.github.io](https://pcphil.github.io)**
 
-```bash
-yarn
-```
+## Features
 
-## Local Development
+- Scroll-animated portfolio sections (About, Experience, Projects)
+- Blog with RSS/Atom feeds
+- Light/dark mode (follows system preference)
+- Responsive design
 
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## Development
 
 ```bash
-yarn build
+yarn          # Install dependencies
+yarn start    # Start local dev server with hot reload
+yarn build    # Build static site to ./build
+yarn serve    # Serve the built site locally
+yarn typecheck # Run TypeScript type checking
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Deployment
 
-Using SSH:
+Pushes to `main` automatically build and deploy to GitHub Pages via the CI workflow in `.github/workflows/deploy.yml`.
 
-```bash
-USE_SSH=true yarn deploy
+## Project Structure
+
 ```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
+blog/           Blog posts (Markdown/MDX)
+src/
+  components/   React components (HeroSection, AboutSection, etc.)
+  css/          Global styles
+  pages/        Custom pages (homepage)
+static/         Static assets (favicon, logo)
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

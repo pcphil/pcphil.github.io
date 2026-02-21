@@ -1,7 +1,7 @@
 # Dependencies
 node_modules/
 
-# Build outputs
+# Build outputsW
 build/
 dist/
 .docusaurus/
@@ -10,7 +10,7 @@ dist/
 .vscode/
 .idea/
 *.swp
-*.swo
+*.swoP
 *~
 .DS_Store
 *.sublime-project

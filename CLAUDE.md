@@ -17,7 +17,7 @@ No test suite is configured for this project.
 
 ## Architecture
 
-This is a **Docusaurus 3.9** static site (Phil Chung's personal blog/goodreads site) deployed to GitHub Pages at `pcphil.github.io`.
+This is a **Docusaurus 3.9** static site (Philip Chung's personal blog/goodreads site) deployed to GitHub Pages at `pcphil.github.io`.
 
 **Deployment:** Pushes to `main` automatically trigger CI via `.github/workflows/deploy.yml`, which builds and deploys to the `gh-pages` branch.
 
@@ -30,4 +30,4 @@ This is a **Docusaurus 3.9** static site (Phil Chung's personal blog/goodreads s
 - `src/components/` — Shared React components.
 - `static/` — Static assets copied as-is to `build/`.
 
-**Author:** The site author is `phil` (Phil Chung) defined in `blog/authors.yml`. Use `authors: [phil]` in blog post frontmatter.
+**Author:** The site author is `Philip` (Philip Chung) defined in `blog/authors.yml`. Use `authors: [Philip]` in blog post frontmatter.
