@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn build:*)",
+      "Bash(npx docusaurus build:*)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
