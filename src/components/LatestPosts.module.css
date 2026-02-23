@@ -1,5 +1,6 @@
 .section {
   padding: 5rem 0;
+  background: var(--portfolio-bg-alt);
 }
 
 .heading {

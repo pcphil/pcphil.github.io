@@ -28,3 +28,20 @@
   --portfolio-text-muted: #94A3B8;
   --portfolio-card-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
+
+.footer--dark {
+  background-color: var(--ifm-navbar-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.footer--dark .footer__link-item {
+  color: var(--ifm-font-color-base);
+}
+
+.footer--dark .footer__title {
+  color: var(--ifm-font-color-base);
+}
+
+.footer--dark .footer__copyright {
+  color: var(--portfolio-text-muted);
+}

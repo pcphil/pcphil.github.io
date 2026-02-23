@@ -66,6 +66,7 @@ export default function PromptLibrary(): ReactNode {
     <Layout
       title="Prompt Library"
       description="Curated collection of useful AI prompts">
+      <div className={styles.page}>
       <div className={styles.pageHeader}>
         <Heading as="h1" className={styles.pageTitle}>
           Prompt Library
@@ -103,6 +104,7 @@ export default function PromptLibrary(): ReactNode {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </Layout>
   );

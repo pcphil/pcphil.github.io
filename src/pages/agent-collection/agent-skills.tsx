@@ -65,6 +65,7 @@ export default function AgentSkills(): ReactNode {
     <Layout
       title="Agent Skills"
       description="Key skills for building and working with AI agents">
+      <div className={styles.page}>
       <div className={styles.pageHeader}>
         <Heading as="h1" className={styles.pageTitle}>
           Agent Skills
@@ -99,6 +100,7 @@ export default function AgentSkills(): ReactNode {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </Layout>
   );

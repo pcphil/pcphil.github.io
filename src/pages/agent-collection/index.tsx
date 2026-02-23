@@ -34,6 +34,7 @@ export default function AgentCollection(): ReactNode {
     <Layout
       title="Agent Collection"
       description="Philip Chung's curated collection of AI agent resources">
+      <div className={styles.page}>
       <div className={styles.pageHeader}>
         <Heading as="h1" className={styles.pageTitle}>
           Agent Collection
@@ -57,6 +58,7 @@ export default function AgentCollection(): ReactNode {
             </ScrollReveal>
           ))}
         </div>
+      </div>
       </div>
     </Layout>
   );

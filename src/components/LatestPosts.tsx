@@ -14,10 +14,10 @@ interface Post {
 // or replace with a dynamic Docusaurus plugin approach later.
 const posts: Post[] = [
   {
-    title: 'Hello World',
-    date: 'February 21, 2026',
-    slug: '/blog/hello-world',
-    excerpt: 'Welcome to my blog!',
+    title: 'Best Coding Assistant',
+    date: 'February 22, 2026',
+    slug: '/blog/claude-code',
+    excerpt: 'Why this coding assistant is the best',
   },
 ];
 
