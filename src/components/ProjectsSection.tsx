@@ -29,7 +29,7 @@ const projects: Project[] = [
     name: 'Pytest-Playwright Template',
     description:
       'Need a quick start for your Playwright tests? This template provides a ready-to-use Pytest framework with Playwright integration, complete with example tests and best practices to get you up and running in no time.',
-    tags: ['Python', 'AWS'],
+    tags: ['Python', 'Playwright', 'Pytest'],
     url: '#',
   },
 ];

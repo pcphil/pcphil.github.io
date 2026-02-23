@@ -61,6 +61,7 @@ export default function InterestingArticles(): ReactNode {
     <Layout
       title="Interesting Articles"
       description="Noteworthy reads on AI and intelligent agents">
+      <div className={styles.page}>
       <div className={styles.pageHeader}>
         <Heading as="h1" className={styles.pageTitle}>
           Interesting Articles
@@ -102,6 +103,7 @@ export default function InterestingArticles(): ReactNode {
             </a>
           ))}
         </div>
+      </div>
       </div>
     </Layout>
   );

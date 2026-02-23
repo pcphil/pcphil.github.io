@@ -1,8 +1,8 @@
 ---
 slug: hello-world
 title: Hello World
-authors: [Philip]
+authors: [pcphil]
 tags: []
 ---
 
-Welcome to my blog!
+Welcome to my blog! This marks the day, i set up the github page!
