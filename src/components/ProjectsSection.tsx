@@ -12,6 +12,13 @@ interface Project {
 // TODO: Replace with your real projects
 const projects: Project[] = [
   {
+    name: 'Personal Notetaker',
+    description:
+      'Your personal notetaker ready to transcribe and summarize from meetings to conferences!',
+    tags: ['Python', 'Whisper', 'Qwen3', 'PySide6'],
+    url: 'https://github.com/pcphil/bite-size-notes',
+  },
+  {
     name: 'Web Automator',
     description:
       'Looking to quickly stand up a UI test suite? Web Automator is a tool that generates Playwright test code from simple English prompts. Produce ready-to-run test scripts, saving you hours of manual coding.',

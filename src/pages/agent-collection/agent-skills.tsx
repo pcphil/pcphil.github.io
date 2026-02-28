@@ -23,6 +23,13 @@ const levelStyles: Record<Level, string> = {
 // TODO: Add your real skills here
 const skills: Skill[] = [
   {
+    title: 'Claude workflow Markdown',
+    category: 'Development',
+    description:
+      'Claude workflow best for agent orchestration to build robust apps',
+    level: 'intermediate',
+  },
+  {
     title: 'Prompt Engineering',
     category: 'Fundamentals',
     description:

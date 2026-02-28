@@ -3,7 +3,8 @@
     "allow": [
       "Bash(yarn build:*)",
       "Bash(npx docusaurus build:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(cd /c/Users/chung/pcphil.github.io && yarn typecheck 2>&1)"
     ]
   }
 }
