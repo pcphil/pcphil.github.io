@@ -37,6 +37,30 @@ const prompts: Prompt[] = [
     prompt:
       'Act as a red team tester. Identify potential vulnerabilities, edge cases, and failure modes in the following system. Suggest mitigations for each finding.',
   },
+  {
+    title: 'Creative Writer',
+    category: 'Writing',
+    description:
+      'Generates creative writing content based on prompts or themes.',
+    prompt:
+      'Write a creative story or piece of content based on the following prompt or theme. Focus on engaging the reader and developing a compelling narrative.',
+  },
+  {
+    title: 'Research Assistant',
+    category: 'Research',
+    description:
+      'Assists with research tasks, including literature reviews and data analysis.',
+    prompt:
+      'You are a research assistant. Help with the following research task: [INSERT TASK HERE]. Provide a comprehensive analysis with citations and references.',
+  },
+  {
+    title: 'Game Designer',
+    category: 'Game Design',
+    description:
+      'Assists with game design tasks, including level design and mechanics development.',
+    prompt:
+      'You are a game designer. Help with the following game design task: [INSERT TASK HERE]. Provide a detailed plan with considerations for player engagement and gameplay balance.',
+  }
 ];
 
 function matchesSearch(prompt: Prompt, query: string): boolean {

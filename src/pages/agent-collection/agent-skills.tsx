@@ -26,7 +26,7 @@ const skills: Skill[] = [
     title: 'Claude workflow Markdown',
     category: 'Development',
     description:
-      'Claude workflow best for agent orchestration to build robust apps',
+      'Claude workflow best for agent orchestration to build robust apps https://gist.github.com/pcphil/a84e85dda5eda3190971a1bf90f9b285',
     level: 'intermediate',
   },
   {
